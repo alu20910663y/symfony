@@ -1,0 +1,6 @@
+index:
+    path: /
+    defaults: { _controller: 'App\Controller\DefaultController::index' }
+productos:
+    path: /productos
+    defaults: { _controller: 'App\Controller\ProductosController::productos' }
